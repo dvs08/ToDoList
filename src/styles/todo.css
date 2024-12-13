@@ -1,0 +1,75 @@
+/* html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: rgb(143, 206, 203);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: default;
+  } */
+
+.bar{
+
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+
+.itemlist{
+
+    height: 70vh;
+    margin-top: 30px;
+    width: 70vh;
+    overflow-y: auto;
+    border: 2px solid black;
+    
+}
+.holder{
+
+    width: 60vh; 
+    height: 5vh;
+ 
+}
+
+.listbar{
+
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.listbar2{
+
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgreen;
+
+
+}
+.rembut{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.mt-100{
+  margin-top: 100px;
+}

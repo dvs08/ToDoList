@@ -1,0 +1,171 @@
+:root {
+  --font-family: 'Roboto';
+}
+  
+  html {
+    font-size: 16px;
+    font-family: var(--font-family);
+    background-color: #f2f2f2;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+  }
+  .edit-head__input-title {
+    flex-grow: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-body__field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+  }
+  
+  .edit-body__btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+  
+  .edit-body__btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn--cancel {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .btn--add {
+    background-color: #4caf50;
+    color: white;
+  }
+  .content-wrapper{
+    max-width: 600px;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .edit-head{
+
+    display: flex;
+    flex-direction: column;
+   /*justify-content: center;*/
+    /* height: 300px; */
+    margin-bottom: 0px;
+    
+  }
+
+  .edit-headSingle{
+
+    display: flex;
+    flex-direction: column;
+   /*justify-content: center;*/
+    /* height: 300px; */
+    margin-bottom: 10px;
+  }
+
+
+  .edit-head.important {
+    background-color: #fffacd; 
+    border: 1px solid #ffd700;
+}
+
+  .edit-headtaskbar{
+      
+    display: flex;
+    align-items: center;
+    height: 50px;
+    flex-direction: row;
+    /* border: 1px solid gray; */
+    margin-bottom: 2px;
+    border-radius: 5px;
+
+
+  }
+  .w-25a{
+    flex-grow: 1;
+    border: none;
+    height: 100%;
+    padding: 10px;
+  
+  }
+
+  .w-25b{
+    display: flex;
+
+  }
+  .completed{
+
+
+    text-decoration: line-through;
+    color: grey;
+  }
+
+.edit-head__input-title {
+  flex: 1; 
+  margin-left: 10px; 
+}
+
+.logout{
+
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+}
+
+.error-message{
+
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  color: red;
+  font-weight: bold;
+
+}
+
+.singlepage{
+  margin-bottom: 50px;
+}
+
+.custtextarea{
+  width: 60vh;
+}
+.checkbox-wrapper {
+  display: flex;
+  align-items: center; 
+  padding: 10px;
+}
+
+.edit-head_priority {
+  display: flex;
+  align-items: center; 
+}
+
+.fixed-form{
+
+  position: sticky; 
+  top: 0;         
+  z-index: 10;     
+  background-color:  #f2f2f2;
+  padding: 10px;   
+  /* border-bottom: 1px solid #ccc; */
+}
+
+input:focus{
+  outline: none;
+  box-shadow: none;
+}

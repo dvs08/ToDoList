@@ -1,0 +1,46 @@
+{
+  "name": "keyboard-app-scratch",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@innovaccer/design-system": "^2.44.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "file-loader": "^6.2.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-loading-indicators": "^1.0.0",
+    "react-router-dom": "^6.26.2",
+    "web-vitals": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@eslint/js": "^9.10.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.7.3",
+    "globals": "^15.9.0",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
